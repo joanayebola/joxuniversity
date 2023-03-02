@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.cert {
+    color: white;
+    font-size: larger;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.offer {
+    font-size: x-large;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.par {
+    text-align: left;
+    width: 75%;
+    margin-top: 20px;
+}
+
+@media (max-width: 575px) {
+    .col-xs-12 {
+        width: 50%;
+    }
+}
+
+.offers {
+    margin-left: 102px;
+}
+
+.title {
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.far {
+    font-size: 17px;
+}
+
+footer {
+    width: 100%;
+
+    background: linear-gradient(to right, white 5%, blue 100%);
+    padding: 100px 0 30px;
+    border-top-left-radius: 125px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.roww {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    font-size: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.col {
+    flex-basis: 28%;
+    padding: 10px;
+    font-size: 13px;
+    margin-bottom: 30px;
+
+}
+
+.col h3 {
+    width: fit-content;
+    position: relative;
+
+}
+
+.email-id {
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+
+
+}
+
+h4 {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.col p {
+    margin-bottom: 0%;
+}
+
+.telephone {
+    margin-top: 20px;
+}
